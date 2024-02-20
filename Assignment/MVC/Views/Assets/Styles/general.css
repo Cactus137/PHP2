@@ -1,0 +1,38 @@
+section {
+  min-height: 100vh;
+  padding-top: 15px;
+}
+
+.legal-container {
+  margin: 0 auto;
+}
+
+.legal-contents {
+  flex-flow: column wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  display: flex;
+}
+
+.legal-contents ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  justify-content: space-around;
+}
+
+footer a {
+  font-weight: 400;
+  text-decoration-thickness: 0.0625rem;
+  text-underline-offset: 0.25rem;
+  text-decoration-line: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.3s ease-in-out 0s;
+  color: #0d1846;
+}
+footer a:hover {
+  text-decoration-line: underline;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: #0d1846;
+}

@@ -1,0 +1,19 @@
+{
+    "name": "vendor/autoload",
+    "description": "This is project use vendor autoload",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Cactus137"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "require": {
+        "phroute/phroute": "^2.2",
+        "eftec/bladeone": "^4.9"
+    }
+}
