@@ -3,10 +3,7 @@
 @php
     $product = $data['product'];
     $listCategory = $data['listCategory']; 
-@endphp
-@php
-var_dump($product->id_category);
-@endphp
+@endphp 
     <form action="{{ route('handle-edit-product/') . $product->id }}" method="post">
         <div class="mb-3">
             <label class="form-label">Name Product</label>

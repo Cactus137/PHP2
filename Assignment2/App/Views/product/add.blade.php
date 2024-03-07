@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-    <form action="{{ route('handle-add-product') }}" method="post">
+    <form action="{{ route('post-product') }}" method="post">
         <div class="mb-3">
             <label class="form-label">Name Product</label>
             <input type="text" name="name_product" class="form-control">

@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-    <form action="{{ route('handle-add-category') }}" method="post">
+    <form action="{{ route('post-category') }}" method="post">
         <div class="mb-3">
             <label class="form-label">Name Category</label>
             <input type="text" name="name_category" class="form-control">

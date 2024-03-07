@@ -31,7 +31,7 @@ class CategoryController extends BaseController
         return $this->render('category.add');
     }
 
-    public function handleAddCategory()
+    public function postCategory()
     {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $name = trim($_POST['name_category']);

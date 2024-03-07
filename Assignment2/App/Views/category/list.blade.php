@@ -6,6 +6,7 @@
         </p>
     @endif
     <a href="{{ route('add-category') }}" class="btn btn-primary">Add Category</a>
+    <a href="{{ route('list-user') }}" class="btn btn-warning">List User</a>
     <a href="{{ route('list-product') }}" class="btn btn-info">List Product</a>
     <table class="table">
         <thead>

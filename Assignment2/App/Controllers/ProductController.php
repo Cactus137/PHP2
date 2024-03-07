@@ -27,7 +27,7 @@ class ProductController extends BaseController
         return $this->render('product.add', compact('listCategory'));
     }
 
-    public function handleAddProduct()
+    public function postProduct()
     {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $name = trim($_POST['name_product']);
